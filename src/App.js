@@ -1,6 +1,5 @@
 // import "./App.css";
 import "./assets/scss/style.scss";
-// import "./assets/scss/style.css"
 import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Issues from "./components/Issues";
