@@ -1,0 +1,78 @@
+.inner-body.settings{
+  padding-top:20px;
+}
+.settings .card {
+  padding:30px;
+}
+
+.settings .media .media-body div {
+  display:flex;
+  flex-direction:column;
+}
+
+.inner-body.settings .card-box img {
+  width: 273px;
+  left: 23px;
+  bottom: -46px;
+}
+.inner-body.settings .media-body label {
+  margin-bottom:0;
+}
+
+.inner-body.settings .btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.inner-body.settings .btn span{
+  margin-left:8px;
+}
+
+.inner-body.settings img.button-logo {
+  width:26px;
+}
+
+.inner-body.settings .card {
+  height:100%;
+}
+
+.inner-body.settings .card-item-stat {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 12px;
+}
+
+.inner-body.settings .finish {
+  margin:0 auto;
+  margin-top:16px;
+  margin-bottom:50px;
+}
+
+.inner-body.settings .picture {
+  margin:24px 0;
+  margin-bottom:32px;
+}
+
+.inner-body.settings .profile {
+  margin:16px 0;
+}
+.inner-body.settings .card-body {
+  padding:0;
+}
+.inner-body.settings #file-upload {
+  display:none
+}
+.avatar {
+  background: var(--primary);
+  background: var(--gradient-background);
+  color: var(--primary-text-color);
+}
+
+.settings .banner-container {
+  @media(max-width:1024px) {
+    margin-left:0 !important;
+  }
+}

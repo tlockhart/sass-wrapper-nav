@@ -1,0 +1,132 @@
+@import "../variables";
+
+.auth-page {
+    background-color:#02182B;
+    padding:40px 100px;
+    width:100vw;
+    min-height:100vh;
+
+    p, span{
+        color:#02182B;
+    }
+}
+
+.sign-in{
+ padding:40px;
+ height:100vh;
+ width:100vw;
+ display: grid;
+ grid-template-columns: 300px 1fr;
+ grid-gap:40px;
+ overflow: hidden;
+}
+
+.auth-page h5{
+    margin-bottom:32px;
+}
+
+.auth-page h5 .logo{
+    width:32px;
+    height:32px;
+    margin-right:16px;
+    fill:#02182B;
+}
+
+.auth-page .card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-clip: border-box;
+    overflow:hidden;
+    background-color: white;
+    color:#02182B;
+    border-radius:4px;
+    padding:40px;
+}
+
+.sign-in-card{
+    grid-column: span 1;
+}
+
+.custom-divider{
+    width: 100%;
+    margin-top:20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:8px;
+    color:#02182B;
+}
+
+.custom-divider:before, .custom-divider:after{
+    content:'';
+    display:block;
+    background-color: $black-5;
+    height:1px;
+    flex:1;
+}
+
+.sso-button{
+    width: 100%;
+    margin-top:10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sso-button span{
+    color:var(--secondary-text-color);
+}
+
+.sso-button svg{
+    fill:var(--secondary-text-color);
+    width: 16px;
+    height:16px;
+    margin-right:16px;
+}
+
+
+//three js sign in text
+.magic-container{
+    grid-column: span 1;
+    height:500px;
+    display: block;
+    position: relative;
+}
+
+#magic{
+    width: 100%;
+    height:100%;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.magic-label{
+    color:white;
+    width: 100%;
+    text-align: center;
+}
+
+.magic-label-small{
+    display: none;
+    margin-top:60px;
+}
+
+@media (max-width: 900px) {
+    .sign-in{
+        display: block;
+    }
+    .card.sign-in-card{
+        width:100%;
+    }
+    .magic-container{
+        visibility:hidden;
+    }
+    .magic-label-small{
+        display: block;
+    }
+}
+
+

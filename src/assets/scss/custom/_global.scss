@@ -1,0 +1,112 @@
+@keyframes fadein {
+    from {
+        opacity: 0;
+        transform: translate3d(0, 20px, 0);
+    }
+
+    to {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+.main-body {
+    background:var(--body-background);
+    color: var(--text-color);
+}
+
+a {
+    color: var(--link-color);
+}
+
+ul li{
+    list-style-type:none
+}
+
+p, span, h1, h2, h3, h4, h5, h6{
+    color: var(--text-color);
+}
+
+.badge-primary {
+    color: black;
+    background-color: var(--tertiary-color);
+}
+
+.platform-pag.pagination {
+    justify-content: center;
+    margin: 16px;
+    padding-bottom:24px;
+}
+
+.table-controls{
+    position:relative;
+}
+
+.dropdown-menu.animated-menu{
+    animation-name: fadein;
+    animation-duration: .2s;
+    animation-fill-mode: both;
+    padding: 16px 0;
+    span, p{
+        color: black;
+        margin-left:16px;
+    }
+    span, p, ul li{
+        margin-bottom:0;
+    }
+    p{
+        font-weight: bold;
+        margin-top:8px;
+    }
+    ul{
+        margin:0;
+        li{
+            padding: 8px 16px;
+            &:hover{
+                background-color:var(--primary-light);
+            }
+        }
+
+    }
+}
+
+.gradient-bg {
+    background: rgb(47,52,255);
+    background: var(--gradient-background);
+    color:white
+}
+
+.repos.badge {
+    padding:4px !important;
+}
+
+a {
+    cursor: pointer !important
+}
+a:not([href]):not([tabindex]) {
+    color: var(--primary) !important
+}
+
+.delete-text{
+    color:$danger;
+}
+
+.confirmation-modal {
+    h2{
+        text-align:center;
+    }
+    p{
+        text-align:center;
+        padding:20px;
+        margin: 0;
+    }
+}
+
+
+#react-select-2-listbox > div > div{
+    cursor:pointer;
+}
+
+.select__option.select__option--is-focused:hover, .select__option.select__option--is-focused{
+    background-color:var(--primary-light) !important;
+}

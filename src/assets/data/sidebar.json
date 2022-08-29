@@ -1,0 +1,51 @@
+{
+    "data": [
+      {
+        "label": "Dashboard",
+        "path": "/dashboard",
+        "icon": "house"
+      },
+      {
+        "label": "Projects",
+        "path": "/projects",
+        "icon": "folder"
+      },
+      {
+        "label": "Users",
+        "path": "/users",
+        "icon": "users"
+      },
+      {
+        "label": "Issues",
+        "path": "/issues",
+        "icon": "triangle-exclamation"
+      },
+      {
+        "label": "Apps",
+        "path": "/apps",
+        "icon": "window-maximize"
+      },
+      {
+        "label": "Dev Ops",
+        "path": "/dev-ops/gitlab-repos",
+        "icon": "code-compare",
+        "submenu": [
+          {
+            "label": "List of Gitlab Repos",
+            "path": "/dev-ops/gitlab-repos",
+            "icon": "code-compare"
+          },
+          {
+            "label": "Add Gitlab Repo",
+            "path": "/dev-ops/gitlab-repos/add",
+            "icon": "code-compare"
+          },
+          {
+            "label": "Book Service",
+            "path": "/service/service",
+            "icon": "code-compare"
+          }
+        ]
+      }
+    ]
+  }

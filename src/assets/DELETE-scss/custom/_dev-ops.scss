@@ -1,0 +1,33 @@
+a.nav-sub-link::before {
+  content :'' !important
+}
+
+.group-controls {
+  position:relative !important;
+  display:flex;
+  flex-direction:column
+}
+
+.page-group-controls {
+  display: flex;
+  align-items: flex-end;
+  gap:16px;
+}
+
+.group-controls label {
+  position:relative !important;
+  top:0 !important;
+  font-size: 12px !important;
+}
+.group-controls select {
+  margin-bottom:20px;
+}
+
+@media(max-width:1088px){
+  .gitlab-repos .page-header{
+    display:block;
+    .page-group-controls{
+      margin: 16px 0;
+    }
+  }
+}

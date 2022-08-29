@@ -1,0 +1,145 @@
+//$background: #020917;
+//$primary: #29657A;
+//$primary-hover:#234C5A;
+//$secondary:#aecded;
+//$secondary-hover:#8badd1;
+//$secondary-tint:#E9F4FF;
+//$dark:#3b4863;
+//$gray: #efefef;
+
+/*alert variables*/
+$success:#19b159;
+$warning:#ff9b21;
+$danger:#fd6074;
+$info:#01b8ff;
+
+/*white variables*/
+$white:#ffffff;
+$white-1:rgba(255, 255, 255, 0.1);
+$white-2:rgba(255, 255, 255, 0.2);
+$white-3:rgba(255, 255, 255, 0.3);
+$white-4 :rgba(255, 255, 255, 0.4);
+$white-5 :rgba(255, 255, 255, 0.5);
+$white-6 :rgba(255, 255, 255, 0.6);
+$white-7 :rgba(255, 255, 255, 0.7);
+$white-8 :rgba(255, 255, 255, 0.8);
+$white-9 :rgba(255, 255, 255, 0.9);
+$white-05:rgba(255, 255, 255, 0.05);
+$white-08:rgba(255, 255, 255, 0.08);
+$white-75:rgba(255, 255, 255, 0.075);
+
+/*black variables*/
+$black:#000000;
+$black-1:rgba(0, 0, 0, 0.1);
+$black-2:rgba(0, 0, 0, 0.2);
+$black-3:rgba(0, 0, 0, 0.3);
+$black-4:rgba(0, 0, 0, 0.4);
+$black-5:rgba(0, 0, 0, 0.5);
+$black-6:rgba(0, 0, 0, 0.6);
+$black-7:rgba(0, 0, 0, 0.7);
+$black-8:rgba(0, 0, 0, 0.8);
+$black-9:rgba(0, 0, 0, 0.9);
+$black-05:rgba(0, 0, 0, 0.05);
+
+////css variables
+:root{
+  --card-background: white;
+  --card-text-color: #02182B;
+  --gradient-background: linear-gradient(90deg, #448FA3 0%, #9BC4BC 100%);
+  --body-background: #02182B;
+  --text-color: white;
+  --link-color: #0197F6;
+  --navigation-background: #02182B;
+  --navigation-text-color: white;
+  --primary: #448FA3;
+  --primary-dark: #126C84;
+  --primary-light: #BEDBE2;
+  --primary-text-color: white;
+  --secondary: #9BC4BC;
+  --secondary-dark: #4EA392;
+  --secondary-light: #DBF4EF;
+  --secondary-text-color: #02182B;
+  --tertiary-color: #00AFB5;
+  --tertiary-tint: #C1FDFF;
+  --gray: #E2E8EF;
+  --table-background: white;
+  --table-tint: #E2E8EF;
+  --table-text-color: #02182B;
+}
+
+.theme-light{
+  --card-background: white;
+  --card-text-color: #333333;
+  --gradient-background: linear-gradient(46.02deg, #00B7FE 13.05%, #B6F5E6 83.07%);
+  --body-background: #F2F2F2;
+  --text-color: #333333;
+  --link-color: #7F1FF2;
+  --navigation-background: white;
+  --navigation-text-color: #333333;
+  --primary: #00B7FE;
+  --primary-dark: #068EC2;
+  --primary-light: #EBF9FF;
+  --primary-text-color: white;
+  --secondary: #A161EE;
+  --secondary-dark: #7F1FF2;
+  --secondary-light: #F7F1FF;
+  --secondary-text-color: white;
+  --tertiary-color: #B6F5E6;
+  --tertiary-tint: #E8FFF9;
+  --gray: #EAEAEA;
+  --table-background: white;
+  --table-tint: #EFFAFF;
+  --table-text-color: #333333;
+}
+
+.theme-purple{
+  --card-background: #1A1423;
+  --card-text-color: white;
+  --gradient-background: linear-gradient(217.28deg, #DD1472 15.77%, #372549 114.43%);
+  --body-background: #372549;
+  --text-color: white;
+  --link-color: white;
+  --navigation-background: #372549;
+  --navigation-text-color: white;
+  --primary: #B75D69;
+  --primary-dark: #963340;
+  --primary-light: #ECB7BE;
+  --primary-text-color: white;
+  --secondary: #774C60;
+  --secondary-dark: #5A1E3A;
+  --secondary-light: #C5A0B1;
+  --secondary-text-color: white;
+  --tertiary-color: #DD1472;
+  --tertiary-tint: #F8C2DB;
+  --gray: #E9DEE3;
+  --table-background: #1A1423;
+  --table-tint: #281B35;
+  --table-text-color: white;
+}
+
+.theme-bright{
+  --card-background: white;
+  --card-text-color: #042238;
+  --gradient-background: linear-gradient(180deg, #86BBD8 0%, #33658A 100%);
+  --body-background: #F4FAFF;
+  --text-color: #042238;
+  --link-color: #F26419;
+  --navigation-background: white;
+  --navigation-text-color: #33658A;
+  --primary: #758E4F;
+  --primary-dark: #4B6622;
+  --primary-light: #C4D7A8;
+  --primary-text-color: white;
+  --secondary: #86BBD8;
+  --secondary-dark: #326784;
+  --secondary-light: #D2EBF9;
+  --secondary-text-color: white;
+  --tertiary-color: #F6AE2D;
+  --tertiary-tint: #FFE6B9;
+  --gray: #E4EAEF;
+  --table-background: white;
+  --table-tint: #FFF4DF;
+  --table-text-color: #042238;
+}
+
+

@@ -1,0 +1,67 @@
+.hide-dropdown {
+    display: none;
+}
+
+.show-dropdown {
+    display: block;
+}
+
+.search-select {
+    display: flex; 
+    flex-direction: row;
+}
+
+//ol{
+//    display: inline-block;
+//    margin: 0 !important;
+//    padding: 0;
+//    list-style: none;
+//    border: 1px solid #ABD9D0 !important;
+//  }
+
+  .contact:not(:first-of-type){
+      border-top: 1px solid #ABD9D0 !important;
+  }
+
+.flex-align{
+    display: flex;
+    align-items: baseline;
+  }
+.contact {
+    margin: 0;
+    padding: 10px;
+}
+  .contact:hover {
+    background-color: #AFDED588;
+    cursor: pointer;
+  }
+/*checkbox*/
+  /*****************/
+  .flex-item1 {
+    flex-grow: 0; 
+}
+
+.flex-item2 {
+      justify-content: flex-start;
+      width: 50%;
+      flex-grow: 2;
+  }
+
+  input[type=checkbox] {
+      margin-right: 10px;
+  }
+
+  input[type=checkbox]:focus {
+      outline: 0;
+  }
+
+  .hide-bottom-border {
+      border-bottom: none!important;
+      border-color: #ABD9D0 !important;
+  }
+
+  /***Modal***/
+  .modal-dialog-2 {
+        max-width: 255px;
+        margin: 1.75rem auto;
+}

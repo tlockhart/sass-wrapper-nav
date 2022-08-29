@@ -1,0 +1,111 @@
+.projects .modal-dialog form{
+  padding: 32px;
+}
+.projects table{
+  table-layout: fixed;
+
+  .user-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+  }
+
+  li:not(:first-of-type){
+    margin-left:-8px;
+  }
+
+  .avatar{
+    border: 2px solid white;
+  }
+}
+
+.project-detail{
+
+  .page-header a, .page-header span, .page-header p, .page-header h2{
+    color: var(--text-color);
+  }
+
+  .page-header p{
+    margin:0;
+  }
+
+  a{
+    text-decoration:underline;
+  }
+
+  .badge{
+    margin-right:8px;
+  }
+
+  .card{
+    margin-bottom: 16px;
+    height: calc(100% - 16px);
+  }
+
+  .empty{
+    margin-left:8px;
+  }
+
+  .actions-menu {
+    left: unset;
+    right: 0px;
+    width: 180px;
+
+    &:before {
+      right: 28px;
+      left: unset;
+    }
+
+    ul li button{
+      text-align:left;
+    }
+  }
+
+  .users-list{
+    display:flex;
+    gap:20px;
+    flex-wrap:wrap;
+    li{
+      display:flex;
+      flex-direction:column;
+      align-items:center;
+      p{
+        margin-top:4px;
+      }
+    }
+  }
+
+  .project-link{
+    display:flex;
+    align-items: center;
+    height:30px;
+    margin:20px 0;
+
+    .actions{
+      display:flex;
+      margin-left:32px;
+      gap:8px;
+
+      button{
+        min-height:unset;
+        width: 28px;
+        height: 28px;
+      }
+
+      &.hidden{
+        display:none;
+      }
+    }
+  }
+
+  .modal-dialog{
+    .detail-modal-body{
+      padding:20px;
+    }
+
+    .upload-button svg{
+      margin-left: 16px;
+    }
+  }
+
+}

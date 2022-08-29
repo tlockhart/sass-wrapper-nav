@@ -1,0 +1,11 @@
+@import "../template/layouts/header";
+@import "../template/bootstrap/badges";
+@import "../template/bootstrap/dropdown";
+@import "../template/custom/image";
+@import "../template/template/mail";
+
+.main-header .avatar-xxl {
+  width: 30px;
+  height: 30px;
+  font-size: 14px;
+}

@@ -1,0 +1,102 @@
+.hide-dropdown {
+    display: none;
+}
+
+.show-dropdown {
+    display: block;
+}
+
+.search-select {
+    display: flex; 
+    flex-direction: row;
+}
+
+ol{
+    display: inline-block;
+    margin: 0 !important;
+    padding: 0;
+    list-style: none;
+    border: 1px solid #cccccc !important;
+  }
+
+  .contact:not(:first-of-type){
+      border-top: 1px solid #cccccc !important;
+  }
+
+.flex-align{
+    display: flex;
+    align-items: baseline;
+  }
+.contact {
+    margin: 0;
+    padding: 10px;
+}
+  .contact:hover {
+    background-color: #AFDED588;
+    cursor: pointer;
+  }
+/*checkbox*/
+  /*****************/
+  .flex-item1 {
+    flex-grow: 0; 
+    margin: auto;
+}
+
+.flex-item2 {
+      justify-content: flex-start;
+      flex-grow: 2;
+  }
+
+  input[type=checkbox] {
+      margin-right: 10px;
+  }
+
+  input[type=checkbox]:focus {
+      outline: 0;
+  }
+
+  .hide-bottom-border {
+      border-bottom: none!important;
+      border-color: #cccccc !important;
+  }
+
+  /***Modal***/
+  .modal-dialog-2 {
+        max-width: 270px;
+        margin: 1.75rem auto;
+}
+
+/***Checkbox***/
+// input[type=checkbox] + label {
+//   transform: rotate(-45deg);
+//   z-index: 1;
+// }
+
+@import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
+ #sidebar-cards-archive ul li {
+    list-style: none;
+}
+/*** custom checkboxes ***/
+ input[type=checkbox] {
+     position: relative;
+}
+/* to hide the checkbox itself */
+ label>input[type=checkbox]:before {
+     position: absolute;
+    background-color: #FFFFFF;
+    height: 100%;
+width: 100%;
+    font-family: FontAwesome;
+    display: inline-block;
+    content:"\f096";
+    letter-spacing: 10px;
+}
+/* space between checkbox and label */
+ label>input[type=checkbox]:checked:before {
+     font-family: FontAwesome;
+    display: inline-block;
+    content:"\f00d";
+    letter-spacing: 5px;
+    cursor: pointer;
+}
+/* allow space for check mark */
